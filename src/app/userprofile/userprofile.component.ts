@@ -107,15 +107,7 @@ export class UserprofileComponent implements OnInit {
         this.arr[i].State = this.State;
         this.arr[i].Email = this.Email;
 
-        // this.Fname='';
-        // this.Lname='';
-        // this.Displayname='';
-        // this.Gender='';
-        // this.DOB='';
-        // this.Address='';
-        // this.City='';
-        // this.State='';
-        // this.Email='';
+
       }
     }
 
