@@ -20,13 +20,13 @@ export class UserprofileComponent implements OnInit {
    State= '';
    Email= '';
    updateditem;
-   data= '';
+
 
 
   arr: user[] = [
     new user('Anup', 'Timmapur', 'AnupTimmapur', 'male', '24-11-1994', '#jaynagar 2nd cross', 'Dwd', 'Karnataka', 'anuptimmapur94@gmail.com'),
     new user('Ashwini', 'Katral', 'AshwiniKatral', 'Female', '23-08-1997', '#SlAO cross ', 'Saudatti', 'Karnataka', 'katralashwini1997@gmail.com'),
-    new user('Shweta', 'Walikar', 'ShwetaWalikar', 'Female', '15-09-1994', 'Old Hubli', 'Hubli', 'Karnataka', 'shweta123@gmail.com'),
+    new user('Shweta', 'Walikar', 'ShwetaWalikar', 'Female', '15-09-1994', 'Old Hubli', 'Hubli', 'Karnataka', 'shweta123@gmail.com')
 
 
   ];
@@ -36,7 +36,7 @@ export class UserprofileComponent implements OnInit {
 
 
 
-  constructor(private _router: Router , ) { }
+  constructor( ) { }
 
   ngOnInit() {
 
@@ -60,11 +60,11 @@ export class UserprofileComponent implements OnInit {
   //   this._router.navigate(['/edituser']);
   // }
 
-   onUserAdd() {
+  //  onUserAdd() {
 
-     // tslint:disable-next-line: max-line-length
-     this.arr.push(new user(this.Fname, this.Lname, this.Displayname, this.Gender, this.DOB, this.Address, this.City, this.State, this.Email));
-   }
+  //    // tslint:disable-next-line: max-line-length
+  //    this.arr.push(new user(this.Fname, this.Lname, this.Displayname, this.Gender, this.DOB, this.Address, this.City, this.State, this.Email));
+  //  }
 
   onUserSave(f) {
 
