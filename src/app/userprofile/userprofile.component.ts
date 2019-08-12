@@ -22,6 +22,7 @@ export class UserprofileComponent implements OnInit {
    updateditem;
    data= '';
 
+
   arr: user[] = [
     new user('Anup', 'Timmapur', 'AnupTimmapur', 'male', '24-11-1994', '#jaynagar 2nd cross', 'Dwd', 'Karnataka', 'anuptimmapur94@gmail.com'),
     new user('Ashwini', 'Katral', 'AshwiniKatral', 'Female', '23-08-1997', '#SlAO cross ', 'Saudatti', 'Karnataka', 'katralashwini1997@gmail.com'),
